@@ -1,0 +1,16 @@
+{
+  "client_id": "YOUR_OSU_CLIENT_ID",
+  "client_secret": "YOUR_OSU_CLIENT_SECRET",
+  "download_dir": "./downloads",
+  "target_count": 10000,
+  "mode": 0,
+  "download_concurrency": 4,
+  "download_delay": 0.5,
+  "max_retries_per_mirror": 2,
+  "skip_existing": true,
+  "mirrors": [
+    "https://catboy.best/d/{id}",
+    "https://api.nerinyan.moe/d/{id}",
+    "https://beatconnect.io/b/{id}"
+  ]
+}

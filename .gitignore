@@ -1,0 +1,31 @@
+# Local credentials
+config.json
+.env
+.env.*
+
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# Downloaded beatmaps and generated import directories
+downloads/
+fake_stable/
+Songs/
+*.osz
+*.part
+*.tmp
+*.log
+beatmapset_ids.json
+failed.json
+extract_failed.json
+osu!.cfg
+
+# Editor / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
